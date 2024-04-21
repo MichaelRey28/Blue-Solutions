@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.container {
+  max-width: 100%; /* Set the container to full width */
+  color: #fff;
+  overflow: hidden; /* Clear floats */
+  background-color: #235A7D;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-size: 50px;
+}
+
+p {
+  text-align: justify;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+h3{
+  padding: 10px;
+  text-align: justify;
+}
+
+.head1 {
+  width: 50%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.head1 h1 {
+  padding-top: 2%; /* Adjusted to 2% for responsive padding */
+  font-weight: bold;
+}
+
+.head1 img {
+  height: 100vh;
+  opacity: 0.5;
+}
+
+.about2 h1 {
+  padding: 4vw; /* Adjusted padding to be responsive */
+  text-align: left;
+  font-size: 2.5vw; /* Adjusted font size to be responsive */
+  text-transform: uppercase;
+  color: #235A7D;
+}
+
+.fixed-rectangle-image {
+  width: auto; /* Full width of the viewport */
+  height: 60vh; /* 60% of the viewport height */
+  display: flex;
+  justify-content: center;
+}
+
+.fixed-rectangle-image img {
+  width: 92%; /* Make the image fill the entire container */
+  height: 92%; /* Make the image fill the entire container */
+  object-fit: cover; /* Cover the entire container with the image */
+}

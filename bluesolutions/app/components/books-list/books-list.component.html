@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h2 class="h2">Recent Donors</h2>
+  </div>
+ 
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Message</th>
+       
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let book of Books; let i = index">
+          <th scope="row">{{book._id}}</th>
+          <td>{{book.title}}</td>
+          <td>{{book.price}}</td>
+          <td>{{book.description}}</td>
+          
+          
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
